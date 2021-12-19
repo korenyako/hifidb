@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="HiFiDb" />
+    <meta name="description" content="HiFi Audio Database">
+    <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+    <!-- favicon -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&Inter:wght@400;500;600;700;800" rel="stylesheet">
+
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Document title -->
+    <title>HiFiDb - Hi-Fi Audio Database</title>
+    <!-- Stylesheets & Fonts -->
+    <link href="css/plugins.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header" class="header-disable-fixed header-mini dark">
+      <div class="header-inner">
+
+          <div class="container container-header">
+              <!--Logo-->
+              <div id="logo">
+                  <a href="index.html">
+                      <img src="images/logo.svg" alt="HiFiDb Logo" width="120" height="28" class="logo-default">
+                      <img src="images/logo.svg" alt="HiFiDb Logo" width="120" height="28" class="logo-dark">
+                  </a>
+              </div>
+              <!--End: Logo-->
+
+              <!-- Search main-->
+              <div id="search-main">
+                  <form class="search-form-main" action="search-results-page.html" method="get">
+                      <input class="form-control-main" name="q" type="search" placeholder="Search HIFIDb" />
+                  </form>
+
+                  <img class="icon-search_main" src="images/search.svg" alt="search">
+
+
+              </div>
+              <!-- end: search main -->
+
+              <a href="#" class="btn btn-dark btn-top">sign in</a>
+
+              <!-- Search -->
+              <div id="search"><a id="btn-search-close" class="btn-search-close" aria-label="Close search form">
+                  </a>
+                  <form class="search-form" action="search-results-page.html" method="get">
+                      <input class="form-control" name="q" type="search" placeholder="Search HIFIDb" />
+                  </form>
+              </div>
+              <!-- end: search -->
+
+              <!--Header Extras-->
+              <div class="header-extras">
+                  <ul>
+                      <li>
+                          <a id="btn-search" href="#"> <i class="icon-search"></i></a>
+                      </li>
+                      <!-- <li>
+                          <div class="p-dropdown">
+                              <a href="#"><i class="icon-globe"></i><span>EN</span></a>
+                              <ul class="p-dropdown-content">
+                                  <li><a href="#">French</a></li>
+                                  <li><a href="#">Spanish</a></li>
+                                  <li><a href="#">English</a></li>
+                              </ul>
+                          </div>
+                      </li> -->
+                  </ul>
+              </div>
+              <!--end: Header Extras-->
+
+              <!--Navigation Resposnive Trigger-->
+              <div id="mainMenu-trigger">
+                  <a class="lines-button x"><span class="lines"></span></a>
+              </div>
+              <!--end: Navigation Resposnive Trigger-->
+
+          </div>
+      </div>
+
+      <div id="mainMenu" class="menu-center mainMenu-main">
+          <div class="container">
+              <nav>
+                  <ul>
+                      <li class="dropdown"><a href="topcategory.html">Speakers</a>
+                          <ul class="dropdown-menu">
+                              <li><a href="category.html">Floorstanding</a></li>
+                              <li><a href="category.html">Bookshelf</a></li>
+                              <li><a href="category.html">Soundbars</a></li>
+                              <li><a href="category.html">Subwoofers</a></li>
+                              <li><a href="category.html">Center Channel</a></li>
+                              <li><a href="category.html">Outdoor Speakers</a></li>
+                              <li><a href="category.html">Bluetooth Speakers</a></li>
+                          </ul>
+                      </li>
+
+                      <li class="dropdown"><a href="topcategory.html">Amplifiers</a>
+                          <ul class="dropdown-menu">
+                              <li><a href="category.html">Preamplifiers</a></li>
+                              <li><a href="category.html">Power Amplifiers</a></li>
+                              <li><a href="category.html">Integrated Amplifiers</a></li>
+                              <li><a href="category.html">Receivers</a></li>
+                              <li><a href="category.html">Phono Amplifiers</a></li>
+                              <li><a href="category.html">Headphone Amplifiers</a></li>
+                          </ul>
+                      </li>
+
+                      <li class="dropdown-submenu"><a href="topcategory.html">Digital</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="category.html">DACs</a></li>
+                            <li><a href="category.html">Disc Players</a></li>
+                            <li><a href="category.html">Digital Tape Players</a></li>
+                            <li><a href="category.html">DSP and Eualizers</a></li>
+                            <li><a href="category.html">Media Players</a></li>
+                            <li><a href="category.html">Media Streamers</a></li>
+                            <li><a href="category.html">Media Servers</a></li>
+
+                          </ul>
+                      </li>
+
+                      <li class="dropdown"><a href="topcategory.html">Analog</a>
+                          <ul class="dropdown-menu">
+                              <li><a href="category.html">Turntables</a></li>
+                              <li><a href="category.html">Cartridges</a></li>
+                              <li><a href="category.html">Tonearms</a></li>
+                              <li><a href="category.html">Radio tuners</a></li>
+                              <li><a href="category.html">Tape decks</a></li>
+                          </ul>
+
+                      </li>
+
+                      <li class="dropdown"><a href="topcategory.html">Portable</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="category.html">Portable DACs</a></li>
+                            <li><a href="category.html">Media Players</a></li>
+                            <li><a href="category.html">Disc Players</a></li>
+                            <li><a href="category.html">Media Players</a></li>
+                            <li><a href="category.html">Boomboxes</a></li>
+                            <li><a href="category.html">Portable Speakers</a></li>
+                            <li><a href="category.html">Cassette Players</a></li>
+                            <li><a href="category.html">Portable Radios</a></li>
+                          </ul>
+
+                      </li>
+
+                      <li class="dropdown"><a href="topcategory.html">Headphones</a>
+                          <ul class="dropdown-menu">
+                              <li><a href="category.html">Over-Ear</a></li>
+                              <li><a href="category.html">On-Ear</a></li>
+                              <li><a href="category.html">In-Ear</a></li>
+                          </ul>
+
+                      </li>
+
+                      <li class="dropdown"><a href="topcategory.html">Systems</a>
+                          <ul class="dropdown-menu">
+                              <!-- <li><a class="head-link" href="#">DACs</a></li> -->
+
+                              <li><a href="category.html">Multiroom Systems</a></li>
+                              <li><a href="category.html">Mini Systems</a></li>
+
+                          </ul>
+
+                      </li>
+
+                      <li class="dropdown"><a href="topcategory.html">Accessories</a>
+                          <ul class="dropdown-menu">
+                              <li><a href="category.html">Cables</a></li>
+                              <li><a href="category.html">Racks and Stands</a></li>
+                              <li><a href="category.html">Power Conditioners</a></li>
+                              <li><a href="category.html">Vinyl Accessories</a></li>
+                              <li><a href="category.html">Dock Stations</a></li>
+                              <li><a href="category.html">Other</a></li>
+                          </ul>
+
+                      </li>
+
+                  </ul>
+              </nav>
+          </div>
+      </div>
+  </header>
+  <!-- end: Header -->
+
+
+
+        <!-- Recently Added -->
+        <section id="page-content">
+            <div class="container">
+                <div class="row m-b-5">
+                    <div class="col-lg-6 p-t-10 m-b-5">
+                        <h2 class="m-b-5">Recently Added</h2>
+                    </div>
+                </div>
+
+                <div class="shop">
+                    <div class="grid-layout grid-5-columns" data-item="grid-item">
+                        <!--   Product 1   -->
+                        <div class="grid-item">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a class="image-hover-zoom" href="product.html"><img alt="NAD D 7050 amplifier" src="photo/NAD/D 7050/thumbs/01.jpg"></a>
+                                </div>
+
+                                <div class="product-description">
+                                    <div class="product-category">Amplifier</div>
+                                    <div class="product-title">
+                                        <h3><a href="product.html">NAD D 7050</a></h3>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--   Product 2   -->
+                        <div class="grid-item">
+                            <div class="product">
+                                <div class="product-image"><a class="image-hover-zoom" href="product.html">
+                                        <img alt="Denon PMA-350Z amplifier" src="photo/Denon/PMA-350z/thumbs/01.jpg"></a>
+                                </div>
+                                <div class="product-description">
+                                    <div class="product-category">Amplifier</div>
+                                    <div class="product-title">
+                                        <h3><a href="product.html">Denon PMA-350Z</a></h3>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--   Product 3   -->
+
+                        <div class="grid-item">
+                            <div class="product">
+                                <div class="product-image"><a class="image-hover-zoom" href="product.html">
+                                        <img alt="Akai AP-100 turntable" src="photo/Akai/AP-100/thumbs/01.jpg"></a>
+                                </div>
+                                <div class="product-description">
+                                    <div class="product-category">Turntable</div>
+                                    <div class="product-title">
+                                        <h3><a href="product.html">Akai AP-100</a></h3>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--   Product 4   -->
+
+                        <div class="grid-item">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a class="image-hover-zoom" href="product.html"><img alt="Acoustic Solid 111 Wood turntable" src="photo/Acoustic Solid/111 Wood/thumbs/01.jpg"></a>
+                                </div>
+                                <div class="product-description">
+                                    <div class="product-category">Turntable</div>
+                                    <div class="product-title">
+                                        <h3><a href="product.html">Acoustic Solid 111 Wood</a></h3>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--   Product 5   -->
+
+                        <div class="grid-item">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a class="image-hover-zoom" href="product.html"><img alt="Audiolab 8200 CD CD Player" src="photo/Audiolab/8200 CD/thumbs/01.jpg"></a>
+                                </div>
+                                <div class="product-description">
+                                    <div class="product-category">CD Player</div>
+                                    <div class="product-title">
+                                        <h3><a href="product.html">Audiolab 8200 CD</a></h3>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--   Product 6   -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Shop products -->
+
+        <!-- Categories -->
+        <section>
+            <div class="container">
+                <div class="row m-b-5">
+                    <div class="col-lg-6 p-t-10 m-b-5">
+                        <h2 class="m-b-5">Categories</h2>
+                    </div>
+                </div>
+
+                <div class="shop">
+                    <div class="grid-layout grid-4-columns" data-item="grid-item">
+
+                        <!--   Category 1   -->
+                        <div class="grid-item">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a class="image-hover-zoom" href="topcategory.html"><img alt="NAD D 7050 amplifier" src="images/categories/speakers.png"></a>
+                                </div>
+                                <div class="product-description">
+                                    <div class="product-title">
+                                        <h3><a href="#">Speakers</a></h3>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--   end: Category 1   -->
+                        <div class="grid-item">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a class="image-hover-zoom" href="topcategory.html"><img alt="Denon PMA-350Z amplifier" src="images/categories/amplifiers.png"></a>
+                                </div>
+                                <div class="product-description">
+                                    <div class="product-title">
+                                        <h3><a href="#">Amplifiers</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a class="image-hover-zoom" href="topcategory.html"><img alt="Akai AP-100 turntable" src="images/categories/digital.png"></a>
+                                </div>
+                                <div class="product-description">
+                                    <div class="product-title">
+                                        <h3><a href="#">Digital</a></h3>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a class="image-hover-zoom" href="topcategory.html"><img alt="Acoustic Solid 111 Wood turntable" src="images/categories/analog.png"></a>
+                                </div>
+                                <div class="product-description">
+                                    <div class="product-title">
+                                        <h3><a href="#">Analog</a></h3>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a class="image-hover-zoom" href="topcategory.html"><img alt="Audiolab 8200 CD CD Player" src="images/categories/portables.png"></a>
+                                </div>
+                                <div class="product-description">
+                                    <div class="product-title">
+                                        <h3><a href="#">Portable</a></h3>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a class="image-hover-zoom" href="topcategory.html"><img alt="Audiolab 8200 CD CD Player" src="images/categories/headphones.png"></a>
+                                </div>
+                                <div class="product-description">
+                                    <div class="product-title">
+                                        <h3><a href="#">Headphones</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a class="image-hover-zoom" href="topcategory.html"><img alt="Audiolab 8200 CD CD Player" src="images/categories/systems.png"></a>
+                                </div>
+                                <div class="product-description">
+                                    <div class="product-title">
+                                        <h3><a href="#">Systems</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a class="image-hover-zoom" href="topcategory.html"><img alt="Audiolab 8200 CD CD Player" src="images/categories/accessories.png"></a>
+                                </div>
+                                <div class="product-description">
+                                    <div class="product-title">
+                                        <h3><a href="#">Accessories</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Categories -->
+
+        <!-- About -->
+        <section id="page-content">
+            <div class="heading-text text-center">
+                <h4><span class="font-weight-300">We build the biggest and the most detailed</span><br>database for every home audio product</h4>
+                <a href="#" class="btn btn-outline btn-dark">About HiFiDb</a>
+            </div>
+        </section>
+
+        <!-- end: Content -->
+
+        <!-- Footer -->
+        <footer id="footer" class="inverted">
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-3">
+                            <!-- Footer widget area 1 -->
+                            <div class="widget">
+                                <h4>PROJECT</h4>
+                                <ul class="list">
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Contacts</a></li>
+                                    <li><a href="#">Cookie Policy</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms and Conditions</a></li>
+                                    <li><a href="#">Sitemap</a></li>
+                                </ul>
+                            </div>
+                            <!-- end: Footer widget area 1 -->
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-3">
+                            <!-- Footer widget area 2 -->
+                            <!-- <div class="widget">
+                                <h4>SUPPORT</h4>
+                                <ul class="list">
+                                    <li><a href="#">Troubleshooting</a></li>
+                                    <li><a href="#">Common Questions</a></li>
+                                    <li><a href="#">Report a Bug</a></li>
+                                    <li><a href="#">Get Help</a></li>
+                                    <li><a href="#">FAQS</a></li>
+                                </ul>
+                            </div> -->
+                            <!-- end: Footer widget area 2 -->
+                        </div>
+
+                        <div class="col-xl-2 col-lg-2 col-md-3">
+                            <!-- Footer widget area 3 -->
+                            <!-- <div class="widget">
+                                <h4>COMPANY</h4>
+                                <ul class="list">
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                </ul>
+                            </div> -->
+                            <!-- end: Footer widget area 3 -->
+                        </div>
+
+                        <div class="col-xl-2 col-lg-2 col-md-3">
+                            <!-- Footer widget area 4 -->
+                            <!-- <div class="widget">
+                                <h4>INFO</h4>
+                                <ul class="list">
+                                    <li><a href="#">Get Directions</a></li>
+                                    <li><a href="#">Call Us</a></li>
+                                    <li><a href="#">Our Staff</a></li>
+                                    <li><a href="#">Working Hours</a></li>
+                                    <li><a href="#">Offices</a></li>
+                                </ul>
+                            </div> -->
+                            <!-- end: Footer widget area 4 -->
+                        </div>
+
+                        <div class="col-xl-4 col-lg-4 col-md-12">
+                            <!-- Footer widget area 5 -->
+                            <div class="widget clearfix widget-newsletter">
+                                <h4 class="widget-title"><i class="fa fa-envelope"></i> Sign Up For a Newsletter</h4>
+                                <p>Want to be the first to know when the site goes live?</p>
+                                <form class="widget-subscribe-form p-r-40" action="include/subscribe-form.php" role="form" method="post" novalidate="novalidate">
+
+
+                                    <div class="input-group">
+                                        <input aria-required="true" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email" type="email">
+                                        <span class="input-group-btn">
+                                            <button type="submit" id="widget-subscribe-submit-button" class="btn"><i class="fa fa-paper-plane"></i></button>
+                                        </span> </div>
+                                </form>
+                            </div>
+                            <!-- end: Footer widget area 5 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-content">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <!-- Social icons -->
+                            <div class="social-icons social-icons">
+                                <ul>
+                                    <li class="social-rss"><a href="#"><i class="fa fa-rss"></i></a></li>
+                                    <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="social-vimeo"><a href="#"><i class="fab fa-vimeo"></i></a></li>
+                                    <li class="social-youtube"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    <li class="social-pinterest"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                                    <li class="social-instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- end: Social icons -->
+                        </div>
+
+                        <div class="col-lg-6 text-right">
+                            <div class="copyright-text">© 2021 HiFiDb - HiFi Audio DataBase. All Rights Reserved. </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end: Footer -->
+
+    </div>
+    <!-- end: Body Inner -->
+    <!-- Scroll top -->
+    <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
+    <!--Plugins-->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+    <!--Template functions-->
+    <script src="js/functions.js"></script>
+</body>
+
+</html>
