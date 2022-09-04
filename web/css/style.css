@@ -14159,12 +14159,12 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .social-icons li a {
     float: left;
-    height: 32px;
-    width: 32px;
-    line-height: 32px;
-    font-size: 16px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 20px;
     text-align: center;
-    margin: 0 4px 4px 0;
+    margin: 0 16px 4px 0;
     border-radius: 4px;
     border: 0;
     background: transparent;
@@ -14200,6 +14200,11 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .social-icons.social-icons-colored .social-twitter a,
 .social-icons.social-icons-colored-hover .social-twitter a:hover {
     background-color: #40bff5;
+}
+
+.social-icons.social-icons-colored .social-telegram a,
+.social-icons.social-icons-colored-hover .social-telegram a:hover {
+    background-color: #0088cc;
 }
 
 .social-icons.social-icons-colored .social-vimeo a,
@@ -14404,7 +14409,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     background-color: #1f1f1f;
 }
 
-.social-icons li:hover i {
+/* .social-icons li:hover i {
     -webkit-animation: toTopFromBottom 0.3s forwards;
     -moz-animation: toTopFromBottom 0.3s forwards;
     animation: toTopFromBottom 0.3s forwards;
@@ -14453,7 +14458,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     51% {
         opacity: 1;
     }
-}
+} */
 
 @font-face {
     font-family: 'inspiro-icons';
